@@ -1,11 +1,14 @@
-import React, {useState} from 'react'
+import React from 'react'
 
-const UseState = () => {
+// Una funcion flecha
+const UseState = ({name,text}) => {
 
-  const [state, setstate] = useState(0);
-
+  console.log('Me rederize');
   return (
-    <div>UseState</div>
+    <div>
+        <label>{text}: </label>
+        <label>{name}</label>
+    </div>
   )
 }
 
