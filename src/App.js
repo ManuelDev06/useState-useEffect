@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import UseState from './components/UseState';
 import { useState } from 'react';
+import UseEffect from './components/UseEffect';
 
 function App() {
 
@@ -20,6 +21,11 @@ function App() {
       <button
         onClick={incrementar}
       >Incrementar</button>
+      <br/>
+      <label>UseEffect</label>
+      <UseEffect
+        name={count}
+      />
     </div>
   );
 }
