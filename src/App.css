@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
 .App-logo {
@@ -35,4 +37,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+header {
+  border: #282c34 2px solid;
+  width: 100%;
+  height: 20px;
+  display: flex;
+}
+
+.sidebar{
+  height: 100%;
+  width: 30px;
+  border: #282c34 2px solid;
 }
