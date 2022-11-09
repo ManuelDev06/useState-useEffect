@@ -1,53 +1,38 @@
-.App {
-  text-align: center;
-  width: 100%;
-  height: 100%;
+/* Herencia */
+/* Se le pasa a todos los hijos o etiquetas */
+h1{
+  color:brown
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  color: aquamarine;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Especificidad */
+/* Le especificas a quien le aplicaras el estilo */
+.description{
+  font-weight: bold;
+  font-size: 30px;
+  color: gray;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.titulo{
+  color: cyan;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.titulo .otro{
+  font-size: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* Cascada */
+/* Sobreescribe el estilo que ya tenia aplicado */
+.description{
+  font-size: 50px;
 }
 
-header {
-  border: #282c34 2px solid;
-  width: 100%;
-  height: 20px;
-  display: flex;
+h2{
+  font-size: 60px;
 }
 
-.sidebar{
-  height: 100%;
-  width: 30px;
-  border: #282c34 2px solid;
-}

@@ -15,25 +15,11 @@ function App() {
   }
 
   return (
-    <div className="App">
-        <Padre>
-          <InputText
-            name={"HOLA"}
-            placeholder="Escribe aqui"
-          />
-          <InputText
-            name={"HOLA"}
-            placeholder="Escribe aqui"
-          />
-          <InputText
-            name={"HOLA"}
-            placeholder="Escribe aqui"
-          />
-          <InputText
-            name={"HOLA"}
-            placeholder="Escribe aqui"
-          />
-        </Padre>
+    <div>
+       <h1 className='titulo'>Hola a todos</h1>
+       <h1 className='titulo otro'>Hola a todos</h1>
+       <h2>Hola a todas</h2>
+       <span className='description'>Esto es una desripcion</span>
     </div>
   );
 }
